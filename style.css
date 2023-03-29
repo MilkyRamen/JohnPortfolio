@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: darkgrey;
+    color: black;
+    padding: 1px;
+    border: 5px;
+    border-style: solid;
+    border-color: goldenrod
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    background-color: grey;
+    height: 10px;
+    border-style: double;
+}
+
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+    align-items: end;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+h1, p {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+
+
+
+.avatar img{
+    border-radius: 15%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   width: 25%;
+   height: auto;
+   max-height: 240px;
+   max-width: 240px;
+}
+
+h2, h3, p, footer {
+    text-align: center;
+}
+
+.horiseon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    height: auto;
+    max-height: 750px;
+    max-width: 750px;
+}
+
+.placeholder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 35%;
+    height: auto;
+    max-width: 510px;
+    min-width: 310px;
+}
+
+.gmail {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 5%
+    
+}
+      
+footer {
+    display: block;
+    height: 10%;
+    width: 100%;
+    background-color: grey;
+    border-style: double;
+}
+
+
+@media  screen and (max-width: 992px) {
+body {
+    width: 100%
+}    
+}
+
+@media  screen and (max-width: 768px) {
+
+    body {
+        width: 100%
+    }
+    
+}
