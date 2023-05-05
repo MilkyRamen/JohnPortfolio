@@ -5,3 +5,5 @@
   
 ## Liscense
   MIT Liscense
+## Credits
+chatGPT for css help
